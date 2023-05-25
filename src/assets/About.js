@@ -1,11 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
+// import Router from "react-router-dom"
 
 export default function About(){
     return(
         <>
-        {Header}
-        <div>
+        
             <h2>Why choose Us?</h2>
             <p>
             Quality Assurance: Our expert team carefully inspects and handpicks each vehicle to ensure it meets our stringent quality standards. You can trust that every car on our lot is reliable, safe, and in excellent condition. <br />
@@ -24,7 +24,7 @@ export default function About(){
 
             Begin your search for the perfect vehicle by browsing our online inventory or visiting our showroom. Contact our team for personalized assistance or to schedule a test drive. AutoConnect is your ultimate destination for top-quality pre-owned vehicles. Drive with confidence - choose US!
             </p>
-        </div>
+       
         </>
     )
 }
